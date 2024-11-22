@@ -37,7 +37,7 @@ const generateMessage = () => {
     } else {
         action = chooseActionVillain();
     }
-    return (`${who} ${action} at ${location}!`);
+    return (`Report: ${who} ${action} at ${location}!`);
 }
 
 const hero = ['Grog Strongjaw', 'Drizzt D\'Orden', 'Cattie-Brie', 'Bruenor Battlehammer', 'Percival DeRolo',
